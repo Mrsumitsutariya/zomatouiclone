@@ -1,0 +1,146 @@
+#collections{
+    margin-bottom: 30px;
+    margin-top: 70px;
+    line-height: 42px;
+}
+#col-title h2{
+    font-size: 36px;
+    color: #1c1c1c;
+    font-weight: 500;
+}
+#col-discription{
+    display: flex;
+    justify-content: space-between;
+}
+#col-discription p{
+   font-size: 20px;
+   color: #363636;
+}
+#col-discription a{
+    font-size: 16px;
+    color: #ef4f5f;
+ }
+ #col-list{
+    height: 360px;
+    display: flex;
+    overflow: hidden;
+    gap: 10px;
+    margin-top: 30px;
+ }
+ #list-item{
+    height: 100%;
+    width: 100%;
+    max-width: 25%;
+    position: relative;
+ }
+ #list-item #list-image{
+    height: 100%;
+    width: 100%;
+ }
+ #list-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+ }
+ #overlay{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(0, 0, 0, 0.05) 85%);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+ }
+ #list-discription {
+    position: absolute;
+    bottom: 0;
+    padding: 0 16px 11px 16px;
+    line-height: 25px;
+ } 
+ #list-discription p{
+   color: #fff;
+   font-size: 19px;
+ }
+ #list-discription h6{
+   color: #fff;
+   font-size: 14px;
+   font-weight: 400;
+
+ }
+ #location{
+    margin-bottom: 100px;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#location-title{
+    margin-bottom: 40px;
+}
+
+#location-title p{
+    font-size: 36px;
+    color: #363636;
+}
+
+#location-title p span{
+    font-weight: 600;
+}
+
+
+
+#places{
+    border: 1px solid #e8e8e8;
+    padding: 12px 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    box-shadow: #1c1c1c14 0px 1.4px 2.8px ;
+}
+
+
+#placename{
+    line-height: 30px;
+}
+
+#placename h5{
+    font-size: 20px;
+    color: #1c1c1c;
+    font-weight: 500;
+}
+
+#placename p{
+    font-size: 16px;
+    color: #363636;
+}
+
+#location-container{
+   width: 32%;
+  
+}
+
+
+#location-parent{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+gap: 10px; 
+}
+#see{
+    width: 32%;
+    height: 100%;
+    line-height: 10px;
+    border:  1px solid #e8e8e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    box-shadow: #1c1c1c14 0px 1.4px 2.8px ;
+}
+#see p{
+    margin: 34px 33px ;
+}
+
+#see i{
+    margin: 34px 33px ;
+}
